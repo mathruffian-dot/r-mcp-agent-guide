@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "_comment": "OpenCode — r-stats MCP 設定。檔案位置：~/.config/opencode/opencode.json（或專案 opencode.json）。注意 command 是整段陣列。將第一個元素換成你的 Rscript 完整路徑。設定後重啟 OpenCode，用 `opencode mcp list` 檢視。",
+  "mcp": {
+    "r-stats": {
+      "type": "local",
+      "command": ["C:/Program Files/R/R-4.6.0/bin/Rscript.exe", "-e", "options(btw.run_r.enabled=TRUE); mcptools::mcp_server(tools = btw::btw_tools())"],
+      "enabled": true
+    }
+  }
+}

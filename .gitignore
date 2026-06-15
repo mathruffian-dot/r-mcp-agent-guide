@@ -1,0 +1,15 @@
+# Google Drive 系統檔
+desktop.ini
+*.tmp
+~$*
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.png
+
+# 敏感資料
+.env
+*.key
+credentials.*

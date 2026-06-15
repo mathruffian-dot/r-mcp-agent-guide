@@ -1,0 +1,10 @@
+{
+  "_comment": "Gemini CLI — r-stats MCP 設定。檔案位置：~/.gemini/settings.json（或專案 .gemini/settings.json）。將 command 換成你的 Rscript 完整路徑。設定後重啟 Gemini CLI，用 /mcp 檢視。",
+  "mcpServers": {
+    "r-stats": {
+      "command": "C:/Program Files/R/R-4.6.0/bin/Rscript.exe",
+      "args": ["-e", "options(btw.run_r.enabled=TRUE); mcptools::mcp_server(tools = btw::btw_tools())"],
+      "timeout": 30000
+    }
+  }
+}
