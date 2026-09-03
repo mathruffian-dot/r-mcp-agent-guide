@@ -148,7 +148,7 @@ claude mcp add r-stats --scope user -- "<RSCRIPT_PATH>" -e "options(btw.run_r.en
 驗證：`claude mcp list`（應顯示 `r-stats: ... ✓ Connected`）。
 **之後必須重啟 Claude Code**，新工具才會載入。
 
-### 4-2. ChatGPT Codex CLI
+### 4-2. ChatGPT App（原 Codex CLI）
 
 編輯 `~/.codex/config.toml`，新增（TOML 格式）：
 
